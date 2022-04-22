@@ -1,0 +1,341 @@
+body {
+  font-size: 14px;
+  font-family: ambroise-std, serif;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.image {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+.hero {
+  background-image: url("./assests/onsen\ hero\ 3.jpeg");
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.header-content-container {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding-top: 20px;
+}
+
+.logo {
+  width: 6%;
+}
+
+.text-logo {
+  width: 30%;
+}
+
+nav {
+  margin-left: auto;
+  display: flex;
+  gap: 30px;
+}
+
+nav a {
+  font-size: 22px;
+  text-decoration: none;
+  color: black;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  width: 100%;
+}
+
+.group-container {
+  width: 60%;
+  display: flex;
+}
+
+.group-container-image {
+  width: 60%;
+}
+
+.black-logo-image {
+  width: 30%;
+}
+.wrapper {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+
+.text-container {
+  padding-top: 50px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.text-container p {
+  font-size: 22px;
+}
+
+.btn {
+  width: 100px;
+  height: 30px;
+  color: White;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-image {
+  width: 55%;
+  position: relative;
+}
+
+.info-image-container {
+  width: 100%;
+}
+.info-container {
+  width: 25%;
+  min-height: 70%;
+  background-color: rgba(255, 255, 255, 0.39);
+  position: absolute;
+  top: 8%;
+  right: 8%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.black-logo-image-info {
+  width: 70%;
+}
+
+.info-container p {
+  width: 80%;
+}
+
+.shop-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.image-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.mockup-image {
+  width: 45%;
+}
+
+.shop-text-container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.shop-text-container p {
+  width: 30%;
+  font-size: 22px;
+}
+
+.shop-text-container .btn {
+  margin-left: auto;
+}
+
+.shop-logo {
+  width: 12%;
+}
+
+footer {
+  width: 100%;
+  background-color: black;
+
+  display: flex;
+  justify-content: center;
+}
+
+.footer-wrapper {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+.adress-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.adress-container p {
+  color: white;
+  font-size: 22px;
+  margin-top: 0;
+  margin-bottom: 30px;
+  width: 50%;
+}
+
+.map {
+  width: 70%;
+}
+
+.socials-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+  width: 45%;
+}
+
+.social {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.fa {
+  color: white;
+  font-size: 60px;
+}
+
+.socials-container p {
+  font-size: 22px;
+  color: white;
+  margin: 0;
+}
+
+@media only screen and (max-width: 1300px) {
+  .info-container {
+    width: 50%;
+  }
+  .group-container {
+    width: 70%;
+  }
+  .info-image {
+    width: 65%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .header-content-container {
+    width: 80%;
+  }
+  .group-container {
+    flex-direction: column;
+    width: 80%;
+  }
+  .group-container-image {
+    width: 100%;
+    order: 1;
+  }
+  .text-logo {
+    width: 40%;
+  }
+  .wrapper {
+    width: 100%;
+    order: 2;
+  }
+  .text-container {
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+  }
+  .text-container .btn {
+    margin-left: auto;
+  }
+  .black-logo-image {
+    width: 20%;
+  }
+
+  .info-container p {
+    width: 90%;
+    font-size: 11px;
+  }
+  .info-image {
+    width: 75%;
+  }
+  .text-container {
+    width: 85%;
+  }
+  .shop-container {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  .info-container p {
+    width: 95%;
+    font-size: 11px;
+  }
+  .info-image {
+    width: 75%;
+  }
+  .text-container {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .group-container {
+    width: 90%;
+  }
+  .info-container {
+    width: 80%;
+  }
+  .black-logo-image-info {
+    width: 50%;
+  }
+  .shop-text-container p {
+    font-size: 14px;
+  }
+  .text-container p {
+    font-size: 14px;
+  }
+  nav a {
+    font-size: 14px;
+  }
+  .info-image {
+    width: 85%;
+  }
+  .text-container {
+    width: 95%;
+  }
+  .footer-wrapper {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .shop-container {
+    width: 80%;
+  }
+  .adress-container p {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .info-container {
+    width: 70%;
+  }
+}
